@@ -18,7 +18,9 @@ import Feature from "../components/authentication/Feature/Feature.vue";
           </div>
           <div class="w-full p-5 mx-auto md:max-w-4xl">
             <div class="grid grid-cols-1 gap-4 md:grid-cols-2">
-              <Feature />
+              <div class="mx-auto md:mx-0">
+                <Feature />
+              </div>
               <div>
                 <RegisterForm />
               </div>

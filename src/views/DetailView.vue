@@ -1,5 +1,6 @@
 <script setup>
-import Galery from "../components/detail/Galery.vue";
+import { RouterLink } from "vue-router";
+import Galery from "@/components/detail/Galery.vue";
 </script>
 
 <template>
@@ -41,7 +42,7 @@ import Galery from "../components/detail/Galery.vue";
                 <div class="flex mb-2">
                   <div>
                     <img
-                      src="src/assets/img/icon-figma.png"
+                      src="@/assets/img/icon-figma.png"
                       alt=""
                       class="w-16"
                     />
@@ -56,7 +57,7 @@ import Galery from "../components/detail/Galery.vue";
                 <div class="flex mb-2">
                   <div>
                     <img
-                      src="src/assets/img/icon-sketch.png"
+                      src="@/assets/img/icon-sketch.png"
                       alt=""
                       class="w-16"
                     />
@@ -73,7 +74,7 @@ import Galery from "../components/detail/Galery.vue";
                   <li class="mb-2">
                     Customizable layers
                     <img
-                      src="src/assets/img/icon-check.png"
+                      src="@/assets/img/icon-check.png"
                       class="float-right w-5 mt-1"
                       alt=""
                     />
@@ -81,7 +82,7 @@ import Galery from "../components/detail/Galery.vue";
                   <li class="mb-2">
                     Documentation
                     <img
-                      src="src/assets/img/icon-check.png"
+                      src="@/assets/img/icon-check.png"
                       class="float-right w-5 mt-1"
                       alt=""
                     />
@@ -89,7 +90,7 @@ import Galery from "../components/detail/Galery.vue";
                   <li class="mb-2">
                     Icon set design
                     <img
-                      src="src/assets/img/icon-check.png"
+                      src="@/assets/img/icon-check.png"
                       class="float-right w-5 mt-1"
                       alt=""
                     />
@@ -97,19 +98,19 @@ import Galery from "../components/detail/Galery.vue";
                   <li class="mb-2">
                     Pre-built UI screens
                     <img
-                      src="src/assets/img/icon-check.png"
+                      src="@/assets/img/icon-check.png"
                       class="float-right w-5 mt-1"
                       alt=""
                     />
                   </li>
                 </ul>
               </div>
-              <a
-                href="checkout.html"
+              <RouterLink
+                to="/pricing"
                 class="inline-flex items-center justify-center w-full px-8 py-3 text-base font-medium text-white bg-indigo-600 border border-transparent rounded-full hover:bg-indigo-700 md:py-2 md:text-md md:px-10 hover:shadow"
               >
                 Download Now
-              </a>
+              </RouterLink>
             </div>
           </div>
         </aside>

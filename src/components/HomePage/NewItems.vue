@@ -31,6 +31,7 @@ const items = ref([
       <NewItemsCard
         v-for="item in items"
         :key="item.id"
+        :id="item.id"
         :description="item.description"
         :title="item.title"
         :image="item.image"
