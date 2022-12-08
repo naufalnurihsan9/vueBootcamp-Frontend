@@ -1,7 +1,4 @@
 <script setup>
-import IconLayer from "@/components/icons/iconLayers.vue";
-import IconBagde from "@/components/icons/iconBadge.vue";
-import IconBook from "@/components/icons/IconBook.vue";
 import { RouterLink } from "vue-router";
 import Feature from "../components/authentication/Feature/Feature.vue";
 </script>
@@ -35,7 +32,7 @@ import Feature from "../components/authentication/Feature/Feature.vue";
                   <ul class="mb-6 text-gray-700">
                     <li class="mb-3">
                       <img
-                        src="img/icon-check.png"
+                        src="@/assets/img/icon-check.png"
                         class="float-left w-6 mr-2"
                         alt=""
                       />
@@ -43,7 +40,7 @@ import Feature from "../components/authentication/Feature/Feature.vue";
                     </li>
                     <li class="mb-3">
                       <img
-                        src="img/icon-check.png"
+                        src="@/assets/img/icon-check.png"
                         class="float-left w-6 mr-2"
                         alt=""
                       />
@@ -51,7 +48,7 @@ import Feature from "../components/authentication/Feature/Feature.vue";
                     </li>
                     <li class="mb-3">
                       <img
-                        src="img/icon-check.png"
+                        src="@/assets/img/icon-check.png"
                         class="float-left w-6 mr-2"
                         alt=""
                       />
@@ -59,7 +56,7 @@ import Feature from "../components/authentication/Feature/Feature.vue";
                     </li>
                     <li class="mb-3">
                       <img
-                        src="img/icon-check.png"
+                        src="@/assets/img/icon-check.png"
                         class="float-left w-6 mr-2"
                         alt=""
                       />
@@ -67,7 +64,7 @@ import Feature from "../components/authentication/Feature/Feature.vue";
                     </li>
                     <li class="mb-3">
                       <img
-                        src="img/icon-check.png"
+                        src="@/assets/img/icon-check.png"
                         class="float-left w-6 mr-2"
                         alt=""
                       />
@@ -93,7 +90,7 @@ import Feature from "../components/authentication/Feature/Feature.vue";
                   <ul class="mb-6 text-gray-700">
                     <li class="mb-3">
                       <img
-                        src="img/icon-check.png"
+                        src="@/assets/img/icon-check.png"
                         class="float-left w-6 mr-2"
                         alt=""
                       />
@@ -101,7 +98,7 @@ import Feature from "../components/authentication/Feature/Feature.vue";
                     </li>
                     <li class="mb-3">
                       <img
-                        src="img/icon-check.png"
+                        src="@/assets/img/icon-check.png"
                         class="float-left w-6 mr-2"
                         alt=""
                       />
@@ -109,7 +106,7 @@ import Feature from "../components/authentication/Feature/Feature.vue";
                     </li>
                     <li class="mb-3">
                       <img
-                        src="img/icon-check.png"
+                        src="@/assets/img/icon-check.png"
                         class="float-left w-6 mr-2"
                         alt=""
                       />
@@ -117,7 +114,7 @@ import Feature from "../components/authentication/Feature/Feature.vue";
                     </li>
                     <li class="mb-3">
                       <img
-                        src="img/icon-check.png"
+                        src="@/assets/img/icon-check.png"
                         class="float-left w-6 mr-2"
                         alt=""
                       />
@@ -125,7 +122,7 @@ import Feature from "../components/authentication/Feature/Feature.vue";
                     </li>
                     <li class="mb-3">
                       <img
-                        src="img/icon-check.png"
+                        src="@/assets/img/icon-check.png"
                         class="float-left w-6 mr-2"
                         alt=""
                       />
@@ -133,7 +130,7 @@ import Feature from "../components/authentication/Feature/Feature.vue";
                     </li>
                     <li class="mb-3">
                       <img
-                        src="img/icon-check.png"
+                        src="@/assets/img/icon-check.png"
                         class="float-left w-6 mr-2"
                         alt=""
                       />
@@ -141,7 +138,7 @@ import Feature from "../components/authentication/Feature/Feature.vue";
                     </li>
                     <li class="mb-3">
                       <img
-                        src="img/icon-check.png"
+                        src="@/assets/img/icon-check.png"
                         class="float-left w-6 mr-2"
                         alt=""
                       />
@@ -149,7 +146,7 @@ import Feature from "../components/authentication/Feature/Feature.vue";
                     </li>
                     <li class="mb-3">
                       <img
-                        src="img/icon-check.png"
+                        src="@/assets/img/icon-check.png"
                         class="float-left w-6 mr-2"
                         alt=""
                       />
@@ -157,7 +154,7 @@ import Feature from "../components/authentication/Feature/Feature.vue";
                     </li>
                     <li class="mb-3">
                       <img
-                        src="img/icon-check.png"
+                        src="@/assets/img/icon-check.png"
                         class="float-left w-6 mr-2"
                         alt=""
                       />
