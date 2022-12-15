@@ -3,22 +3,18 @@ import { RouterLink } from "vue-router";
 
 defineProps({
   id: Number,
-  title: String,
-  image: String,
-  count: Number,
+  name: String,
+  thumbnails: String,
+  products_count: Number,
 });
 </script>
 
 <template>
   <div class="w-full px-1 my-1 md:w-1/2 lg:my-4 lg:px-4 lg:w-1/4">
     <div class="overflow-hidden border border-gray-200 rounded-xl">
-      <RouterLink :to="`/product/` + id">
+      <RouterLink :to="{ name: 'category-items', params: { id: id } }">
         <div class="m-4 overflow-hidden rounded-xl">
-          <img
-            :alt="title"
-            class="block w-full h-auto"
-            :src="`src/assets/img/` + image"
-          />
+          <img :alt="name" class="block w-full h-auto" :src="thumbnails" />
         </div>
       </RouterLink>
 
@@ -26,13 +22,13 @@ defineProps({
         <h1 class="text-lg">
           <RouterLink
             class="font-semibold text-black no-underline hover:underline"
-            :to="`/product/` + id"
+            :to="{ name: 'category-items', params: { id: id } }"
           >
-            {{ title }}
+            {{ name }}
           </RouterLink>
         </h1>
         <span class="block text-sm font-light text-gray-500 no-underline">
-          {{ count }} items
+          {{ products_count }} items
         </span>
       </header>
     </div>
